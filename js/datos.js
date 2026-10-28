@@ -7,7 +7,7 @@ const A=[
  vis:"Poliniza frutales, calabazas, girasoles y muchas plantas silvestres.",
  fact:"¿Sabías que? Cuando encuentra flores, baila dentro de la colmena para decirles a sus compañeras dónde están.",
  clue:"Baila para indicar dónde hay flores",},
-{name:"Mariposa monarca",sci:"Danaus plexippus",h:"dia",z:6.5,sp:4.5,amp:.75,base:.15,
+{name:"Colibri pico espada",sci:"Ensifera ensifera",h:"dia",z:6.5,sp:4.5,amp:.75,base:.15,
  desc:"Sus alas naranjas con venas negras se ven a lo lejos. Cada otoño migra miles de kilómetros hasta los bosques de oyamel del centro de México.",
  vis:"Al beber néctar, lleva polen de una flor a otra; su oruga se alimenta de algodoncillo.",
  fact:"¿Sabías que? Ninguna monarca hace el viaje completo: lo continúan varias generaciones.",
