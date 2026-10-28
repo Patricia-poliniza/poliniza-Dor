@@ -15,7 +15,7 @@
 // CAMBIA AQUÍ las rutas de tus archivos GLB
 const RUTAS_MODELOS = [
   'modelos/abe.glb',
-  'modelos/colobri pico espada.glb',
+  'modelos/Colibri pico espada.glb',
   'modelos/murcielago.glb',
   'modelos/polilla.glb'
 ];
