@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Polinizadores de día y de noche</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Figtree:wght@400;700&display=swap">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body data-theme="dia">
+<main>
+<header>
+  <img class="logo" src="imagen/logotipo.png.png" alt="Logotipo de [nombre de tu proyecto]">
+<h1>La Importancia de su Trabajo</h1>
+<p>Conoce cuatro polinizadores: dos que trabajan con el sol y dos que lo hacen de noche. Elige uno, gíralo en 3D y después pon a prueba tu memoria.</p>
+</header>
+
+<div class="picker">
+<div class="grp"><h3> Diurnos</h3><div class="row" id="gd"></div></div>
+<div class="grp"><h3> Nocturnos</h3><div class="row" id="gn"></div></div>
+</div>
+
+<div class="viewer">
+<div id="stage" aria-label="Modelo 3D del polinizador"><small>Arrastra para girar el modelo</small></div>
+<article class="info" aria-live="polite">
+<span class="badge" id="hab"></span>
+<h2 id="nom"></h2>
+<div class="sci" id="sci"></div>
+<p id="desc"></p>
+<p id="vis"></p>
+<p class="fact" id="fact"></p>
+</article>
+</div>
+
+<section class="game">
+<h2>Memorama de polinizadores</h2>
+<p>Encuentra las parejas: cada polinizador tiene una carta con su nombre y otra con una pista sobre su trabajo.</p>
+<div class="bar"><button id="reset">Barajar de nuevo</button><span>Movimientos: <b id="mv">0</b></span><span>Parejas: <b id="pr">0</b>/4</span></div>
+<div class="grid" id="grid"></div>
+<div id="msg" role="status"></div>
+</section>
+
+<footer>
+<div class="qr" id="qr"></div>
+<p>Escanea este código con tu celular para abrir el visor. Sin polinizadores, muchas plantas no producirían frutos ni semillas, y los ecosistemas perderían su equilibrio.</p>
+</footer>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="js/datos.js"></script>
+<script src="js/modelos.js"></script>
+<script src="js/visor.js"></script>
+<script src="js/memorama.js"></script>
+</body>
+</html>
