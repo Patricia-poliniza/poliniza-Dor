@@ -1,6 +1,6 @@
 /* Estilos del visor de polinizadores.
    Colores: variables al inicio (modo día en :root, modo noche en body[data-theme="noche"]). */
-:root{--bg:#c0deaf;--panel:#F6FBE9;--ink:#1f3a1d;--soft:#4c6a47;--acc:#FFFF6A;--accink:#2a1d00;--line:#b9d3a0;--card:#fff;
+:root{--bg:#007a3f;--panel:#F6FBE9;--ink:#1f3a1d;--soft:#4c6a47;--acc:#FFFF6A;--accink:#2a1d00;--line:#b9d3a0;--card:#fff;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body[data-theme="noche"]{--bg:#121838;--panel:#1b2350;--ink:#e9ecff;--soft:#aab3e6;--acc:#b9a4ff;--accink:#17114a;--line:#35408a;--card:#232c63}
