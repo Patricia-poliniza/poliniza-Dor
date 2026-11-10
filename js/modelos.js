@@ -39,7 +39,6 @@ function crearModeloGLB(ruta) {
       const maximo = Math.max(tamano.x, tamano.y, tamano.z);
 
       if (maximo > 0) {
-         // Normalizar y aplicar multiplicador
         const escala = 2.2 / maximo;
 
         modelo.scale.setScalar(escala);
