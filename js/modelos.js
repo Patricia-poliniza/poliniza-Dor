@@ -40,7 +40,7 @@ function crearModeloGLB(ruta) {
 
       if (maximo > 0) {
          // Normalizar y aplicar multiplicador
-        const escala = (2.2 / maximo)* multiplicador;
+        const escala = 2.2 / maximo;
 
         modelo.scale.setScalar(escala);
         modelo.position.set(
@@ -62,13 +62,6 @@ function crearModeloGLB(ruta) {
 
   return grupo;
 }
-//tamaño de cada polinizador
-const ESCALAS = [
-  1.0,  // Primer polinizador
-  1.5,  // Segundo polinizador
-  1.3,  // Tercer polinizador
-  1.8   // Cuarto polinizador
-];
 
 // Mantener el orden de los cuatro polinizadores
 const MODELOS = RUTAS_MODELOS.map(function (ruta) {
